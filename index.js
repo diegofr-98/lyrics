@@ -13,7 +13,7 @@ app.use(express.urlencoded({
     extended:false
 }));
 app.use(express.json())
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/public/'))
 app.use('/',controlador)
 app.use(handlers_ln.atiende404);
 app.use(handlers_ln.atiende500);
