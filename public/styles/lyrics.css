@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    margin: 0;    
+}
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/27/07/30/elvis-presley-1482026_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+h1,h2{
+    text-align: center;
+    color: black; 
+}
+a{
+   text-decoration: none; 
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.error{
+    border: 2px solid hsla(360, 100%, 50%, 1);
+    background-color: hsla(360, 74%, 50%, 1);
+    color: white;
+    padding: 1em;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 27em;
+}
+.btnLetras{
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+}
+#siguiente_previo{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+[class^="btn"]{
+    background-color: cadetblue;
+    border-radius: 5px 5px 5px 5px;
+    padding: .3em 1em .3em 1em;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.letra{
+    display: flex;
+    justify-content: center;
+}

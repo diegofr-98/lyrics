@@ -1,0 +1,23 @@
+{
+  "name": "prueba_gh-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegofr-98/prueba_ghp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegofr-98/prueba_ghp/issues"
+  },
+  "homepage": "https://github.com/diegofr-98/prueba_ghp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3"
+  }
+}
