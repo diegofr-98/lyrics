@@ -18,6 +18,6 @@
   "homepage": "https://github.com/diegofr-98/prueba_ghp#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.3"
+    "express-handlebars": "^5.3.1"
   }
 }
