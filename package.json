@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/diegofr-98/prueba_ghp#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.3"
   }
 }
